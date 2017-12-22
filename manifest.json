@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Google.com image background",
+  "description": "This extension will replace Google.com's plain white background with a random photo",
+  "version": "1.0",
+  
+  "page_action": {
+   "default_icon": "round-info-button.png",
+   "default_popup": "popup.html",
+   "default_title": "Re-skinned Google.com"
+  },
+  
+  "permissions": [
+   "activeTab"
+   ]
+}
