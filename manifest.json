@@ -5,12 +5,8 @@
     "version": "1.0",
     "content_scripts": [
         {
-            "matches": [
-                "https://www.google.com/*"
-            ],
-            "css": [
-                "basic.css"
-            ]
+            "matches": ["https://www.google.com/*"],
+            "css": ["basic.css"]
         }
     ],
     "page_action": {
